@@ -70,6 +70,8 @@ $.Redactor.opts.langs['zh_cn'] = {
 	alignment: '对齐',
 	filename: '文件名 (可选)',
 	edit: '编辑',
-	center: '居中'
+	center: '居中',
+    image_upload : '上传',
+    image_choose : '选择'
 };
 })( jQuery );

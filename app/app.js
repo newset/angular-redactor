@@ -36,7 +36,9 @@ angular.module('app', ['ui.load', 'ngSanitize'])
                             // todo 获取form, 验证 是否 valid
                             return ngModel.$setViewValue(this.code.get());
                         },
-                        'lang'           : 'zh_cn'
+                        'lang'           : 'zh_cn',
+                        minHeight        : attr.editorMinHeight || 200, // pixels
+                        maxHeight        : attr.editorMaxHeight || 500
                     }]);
                 });
             }

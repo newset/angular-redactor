@@ -16,8 +16,8 @@ if (!RedactorPlugins) var RedactorPlugins = {};
 				var $modal = this.modal.getModal();
 
 				this.modal.createTabber($modal);
-				this.modal.addTab(1, 'Upload', 'active');
-				this.modal.addTab(2, 'Choose');
+                this.modal.addTab(1, this.lang.get('image_upload'), 'active');
+                this.modal.addTab(2, this.lang.get('image_choose'));
 
 				$('#redactor-modal-image-droparea').addClass('redactor-tab redactor-tab1');
 
