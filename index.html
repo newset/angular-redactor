@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/angular.js"></script>
+	<script src="js/angular-sanitize/angular-sanitize.js"></script>
+	<script src="js/services/ui-load.js"></script>
+	<script src="app/app.js"></script>
+</head>
+<body ng-controller="Home">
+	
+	<textarea id="content" ui-editor ng-model="data">
+		test
+	</textarea>
+	<div ng-bind-html="data"></div>
+</body>
+</html>
